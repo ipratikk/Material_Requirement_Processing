@@ -1,0 +1,18 @@
+Main
+Material Requirement Processing
+0
+0
+0.0.12
+
+gb.image
+gb.gui
+gb.form
+gb.chart
+gb.data
+gb.db
+gb.db.form
+gb.db.mysql
+gb.db.odbc
+gb.db.postgresql
+gb.db.sqlite3
+

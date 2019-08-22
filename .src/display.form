@@ -1,0 +1,90 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,120,82)
+  Background = &HC0C0C0&
+  AutoResize = True
+  { namelabel Label
+    MoveScaled(-14,5,24,4)
+    Foreground = Color.Black
+    Alignment = Align.Right
+  }
+  { nameans Label
+    MoveScaled(11,5,24,4)
+    Foreground = Color.Black
+  }
+  { phonelabel Label
+    MoveScaled(26,5,24,4)
+    Foreground = Color.Black
+    Alignment = Align.Right
+  }
+  { phoneans Label
+    MoveScaled(51,5,24,4)
+    Foreground = Color.Black
+  }
+  { addlabel Label
+    MoveScaled(-14,9,24,4)
+    Foreground = Color.Black
+    Alignment = Align.Right
+  }
+  { addans Label
+    MoveScaled(11,9,24,4)
+    Foreground = Color.Black
+  }
+  { adharlabel Label
+    MoveScaled(26,9,24,4)
+    Foreground = Color.Black
+    Alignment = Align.Right
+  }
+  { adharans Label
+    MoveScaled(51,9,24,4)
+    Foreground = Color.Black
+  }
+  { cv1 ColumnView
+    MoveScaled(2,15,113,44)
+    Font = Font["Bold"]
+    Background = &HC0C0C0&
+    Foreground = Color.Black
+    Expand = True
+  }
+  { Label1 Label
+    MoveScaled(40,62,54,4)
+    Font = Font["Bold,+3"]
+    Text = ("Net Amount Payable :")
+    Alignment = Align.Right
+  }
+  { Label2 Label
+    MoveScaled(95,62,22,4)
+    Font = Font["Bold,+3"]
+    Alignment = Align.Left
+  }
+  { Label3 Label
+    MoveScaled(-14,2,24,4)
+    Foreground = Color.Black
+    Text = ("Bill No:")
+    Alignment = Align.Right
+  }
+  { Label4 Label
+    MoveScaled(11,2,24,4)
+    Font = Font["Bold"]
+    Foreground = Color.Black
+    Alignment = Align.Left
+  }
+  { PictureBox1 PictureBox
+    MoveScaled(2,68,24,7)
+    Picture = Picture["signature5ca4c5e65a951.png"]
+    Stretch = True
+  }
+  { PictureBox2 PictureBox
+    MoveScaled(28,69,22,6)
+    Picture = Picture["signature5ca4c61e10533.png"]
+    Stretch = True
+  }
+  { Label5 Label
+    MoveScaled(12,76,24,4)
+    Font = Font["Bold,+1"]
+    Foreground = Color.Black
+    Text = ("Authorized Signatory")
+    Alignment = Align.Center
+  }
+}

@@ -1,0 +1,30 @@
+' Gambas class file
+
+Public Sub Form_Open()
+
+  Update2.Background = Color.Gradient(Color.Blue, Color.White, 0.75)
+  For i As Integer = 0 To Main.LPTop Step 1
+    cb1.Add(Main.Material[i])
+  Next
+
+End
+
+Public Sub Button1_Click()
+
+  If Val(qty.Text) == Null Then
+    Message.Info("Invalid Quantity", "OK")
+  Else
+    For i As Integer = 0 To Main.LPTop Step 1
+      If Comp(Main.Material[i], cb1.Text) == 0 Then
+        Main.Quantity[i] += Val(qty.Text)
+        Message.Info("Added Successfully", "OK")
+      Endif
+    Next
+  Endif
+
+End
+Public Sub Form_Close()
+  
+  updateselect.Show()
+  
+End
